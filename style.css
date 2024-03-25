@@ -120,14 +120,23 @@ footer {
 }
 
 .weather-forecast-date {
-  color: #a678d2;
+  color: #000000;
   font-weight: 500;
 }
 
 .weather-forecast-temperatures {
   font-size: 14px;
+  font-weight: 300;
 }
 
 .weather-forecast-temperature-min {
-  opacity: 0.5;
+  opacity: 0.6;
+}
+
+.weather-forecast-temperature-max {
+  color: #7830bd;
+}
+
+.weather-forecast-icon {
+  width: 65px;
 }
